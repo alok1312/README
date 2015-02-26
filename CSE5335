@@ -1,0 +1,53 @@
+#CSE5335 
+#Alok Kumar
+#Student Id: 1000996623
+
+Answers to the question 5:
+
+(a) I used Ruby on rails as a server framework because it allows to write less code than many oter language and frameworks.
+(b) I used jQuery as a client framework because jQuery simplifies the use of javascript and I found it easier to use with ajax.
+(c) I found that creating rails application was easy. It makes the most of the folder which makes the web programming easier.
+(d) Configuring the route in rails application was little difficult for me. I got confused how to configure the routes.
+(e) I installed the ide RubyMine 7.0, curl for rvm, 
+(f) The commands required to deploy and run the server are :
+ 		- $ sudo apt-get install ruby
+		- $ gem install rails
+		- $ bundle install
+		- $ rails new app
+		- $ cd app
+		- $ rails s/rails server
+
+Steps to start the projects: 
+
+Step1: Install the Ubuntu 14.04 LTS on VMWARE Workstation 11.
+Step2: Install the ruby on Ubuntu.
+Step3: Install rvm to update the ruby.
+Step4: Updated the ruby using rvm (Ruby 2.1.5)
+Step5: Install rails using the 'gem install' commands provided by RubyGems.
+Step6: Rails version (4.2.0)
+Step7: Created the application using ($rails new app)
+Step8: Use the IDE RubyMine 7.0.
+
+Step9: (a) Integrated facebook graph API with rails application.
+       (b) Used two gems (omniauth-facebook and koala) to integrate the API.
+       (c) Omniauth-facebook is used for authentication such to get the permisssion from user to get their facebook profile.
+       (d) Koala is used for fetching the data.
+       (e) to update these two gems in gemfile use the command (bundle install).
+       
+Step10: Go to the folder where alok application was created using terminal.
+Step11: created the controller users index
+Step12: Put the facebook API code in the folders such as views, model, and config of the application.
+Step13: Put the jquery code in /views/index.html.erb
+Step14: Run rails server
+Step15: Go to the browser put http://localhost:300
+Step16: jQuery will call the function ajax load function which will fetch the json data from the Restful facebook graph API.
+Step17: API will return the three json objects (Name, Picture, and Gender). 
+
+References:
+
+(1) http://www.gotealeaf.com/blog/facebook-graph-api-using-omniauth-facebook-and-koala
+(2) http://www.w3schools.com/
+(3) http://guides.rubyonrails.org/getting_started.html
+(4) http://guides.rubyonrails.org/routing.html
+(5) https://www.codeschool.com/paths/ruby
+ 
